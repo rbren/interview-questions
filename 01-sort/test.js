@@ -17,9 +17,11 @@ let cases = module.exports = [{
   output: [],
 }]
 
-describe('Sort', () => {
-  cases.forEach((case) => {
-    let answer = require('./answer')(case.input);
-    expect(answer).to.equal(case.output);
+describe('Sort', function() {
+  cases.forEach((c, idx) => {
+    it('case ' + idx, () => {
+      let answer = require('./answer')(c.input);
+      expect(answer).to.deep.equal(c.output);
+    });
   })
-})
+});
