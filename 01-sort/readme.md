@@ -6,4 +6,10 @@ Use any language and sorting algorithm of your choice.
 ## Tips
 * Say what sorting algorithm you will use
 * Mention `O(n*log(n))` complexity
+* Know how to do:
+  * Quicksort
+  * Merge sort
+  * Bubble sort
 
+## Links
+https://en.wikipedia.org/wiki/Sorting_algorithm
