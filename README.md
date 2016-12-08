@@ -1,5 +1,6 @@
 # Interview Questions
-This is a set of practice questions for technical interviews.
+This is a set of practice questions for technical interviews, created for
+the [Boston Tech Interview Meetup](https://www.meetup.com/Boston-Tech-Interview-Meetup/)
 
 Each directory contains a question, along with an answer in JavaScript.
 
