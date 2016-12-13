@@ -31,6 +31,13 @@ That is, `differences[0] == list[0]`, `differences[1] = list[1] - list[0]`,
 Write a function that takes in this list of differences, along with a new number to insert,
 and returns the new list of differences.
 
+## Example
+* Input
+  * differences: [1, 1, 2, 4]
+  * number: 7
+* Output
+  * [1, 1, 2, 3, 1]
+
 
 
 
@@ -145,8 +152,8 @@ Write a function that takes in a bunch of English text,
 and reverses each word in the text. Words are separated by spaces.
 
 ## Example
-Input: Shall I compare thee to a summer's day?
-Output: llahS I erapmoc eeht ot a s'remmus ?yad
+* Input: `Shall I compare thee to a summer's day?`
+* Output: `llahS I erapmoc eeht ot a s'remmus ?yad`
 
 ## Tips
 * Discuss big-O complexity
@@ -162,10 +169,10 @@ Given an array of integers and a target sum, output the number of
 triplets in the array whose sum is <= the target sum.
 
 ## Example
-Input:
+* Input:
   * Array: [3, -2, 1, 3],
   * Target: 5
-Output:
+* Output:
   * 3 ([3, -2, 3], [3, -2, 1], and [-2, 1, 3] all sum to <= 5)
 
 ## Tips

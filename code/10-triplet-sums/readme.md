@@ -3,10 +3,10 @@ Given an array of integers and a target sum, output the number of
 triplets in the array whose sum is <= the target sum.
 
 ## Example
-Input:
+* Input:
   * Array: [3, -2, 1, 3],
   * Target: 5
-Output:
+* Output:
   * 3 ([3, -2, 3], [3, -2, 1], and [-2, 1, 3] all sum to <= 5)
 
 ## Tips
