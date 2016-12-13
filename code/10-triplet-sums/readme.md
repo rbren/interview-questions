@@ -12,3 +12,4 @@ Output:
 ## Tips
 * Try a naive soulution first
 * Try and get complexity to O(n^2)
+* How would you generalize your code to handle n-tuples for arbitrary n

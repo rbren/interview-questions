@@ -24,6 +24,24 @@ const cases = [{
     target: 10,
   },
   output: 4,
+}, {
+  input: {
+    list: [-1, 2, -3, 4],
+    target: -1,
+  },
+  output: 1,
+}, {
+  input: {
+    list: [1, 2, 3, 4, 5, 6, 7],
+    target: 10,
+  },
+  output: 11,
+}, {
+  input: {
+    list: [3, 7, 1, 5, 4, 6, 2],
+    target: 10,
+  },
+  output: 11,
 }]
 
 describe('Reverse Words', () => {

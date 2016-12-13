@@ -11,4 +11,24 @@ const naiveAnswer = (list, target) => {
   }
   return numTriplets;
 }
-module.exports = naiveAnswer;
+
+const betterAnswer = (list, target) => {
+  list.sort();
+  let numTriplets = 0;
+  for (let i = 0; i < list.length; ++i) {
+    let k = list.length - 1;
+    for (let j = i + 1; j < k;) {
+      let sum = list[i] + list[j] + list[k];
+      if (sum <= target) {
+        numTriplets += k - j;
+        ++j;
+      } else {
+        --k;
+      }
+    }
+  }
+  return numTriplets;
+}
+
+
+module.exports = betterAnswer;
