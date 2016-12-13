@@ -10,3 +10,10 @@ That is, `differences[0] == list[0]`, `differences[1] = list[1] - list[0]`,
 
 Write a function that takes in this list of differences, along with a new number to insert,
 and returns the new list of differences.
+
+## Example
+* Input
+  * differences: [1, 1, 2, 4]
+  * number: 7
+* Output
+  * [1, 1, 2, 3, 1]
